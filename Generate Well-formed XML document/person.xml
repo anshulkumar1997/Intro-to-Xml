@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+<persons>
+    <person>
+    <name>Age</name>
+    <age>22</age>
+    <gender>M/F</gender>
+    <address>
+        <doorno>12</doorno>
+        <street>sesame</street>
+        <city>Delhi</city>
+        <state>New York</state>
+    </address>
+    <student>
+        <rollno>14</rollno>
+        <standard>12</standard>
+        <section>D</section>
+    </student>
+    </person>
+    <person>
+        <name>Att</name>
+        <age>45</age>
+        <gender>M/F</gender>
+        <address>
+            <doorno>5</doorno>
+            <street>Mahalo</street>
+            <city>Garrison</city>
+            <state>Colorado</state>
+        </address>
+    <staff>
+        <staffid>28</staffid>
+        <subject>Training</subject>
+    </staff>
+    </person>
+    </persons>

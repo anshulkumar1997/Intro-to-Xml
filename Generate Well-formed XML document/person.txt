@@ -1,0 +1,8 @@
+Generate Well-formed XML document 2
+
+
+Generate XML for the given scenario
+
+   XYZ school wants to store the details of student and staff in a xml file. The following scenario helps in designing the XML document.
+
+  persons will be the root tag. persons will have the entry of each person with name, age, gender, address. A person can be either a student or staff. student will have rollno, standard and section. If staff, then staffid and subject. Every person must have an address with the following entry- doorno,street,city and state.
