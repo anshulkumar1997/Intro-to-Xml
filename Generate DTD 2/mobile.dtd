@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT mobilestore (mobile+)>
+<!ELEMENT mobile (brand,os,model,ram,internal)>
+<!ELEMENT brand (#PCDATA)>
+<!ELEMENT os (#PCDATA)>
+<!ELEMENT model (#PCDATA)>
+<!ELEMENT ram (#PCDATA)>
+<!ELEMENT internal (#PCDATA)>
