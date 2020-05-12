@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<xsd:element name="hotels">
+<xsd:complexType>
+<xsd:sequence>
+<xsd:element maxOccurs="unbounded" minOccurs="1" 
+name="hotel" type="type"/>
+</xsd:sequence>
+</xsd:complexType>
+</xsd:element>
+<xsd:complexType name="type">
+<xsd:sequence>
+<xsd:element name="ID" type="xsd:integer"/>
+<xsd:element name="Name" type="xsd:string"/>
+<xsd:element name="Stars" type="xsd:integer"/>
+<xsd:element name="Facilities" type="xsd:string"/>
+<xsd:element name="Address" type="xsd:string"/>
+<xsd:element name="Type" type="xsd:string"/>
+<xsd:element name="Available" type="xsd:boolean"/>
+</xsd:sequence>
+</xsd:complexType>
+</xsd:schema>
