@@ -1,0 +1,44 @@
+Generate DTD 
+Create DTD for the below xml document
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<student id="12C042">
+
+	<fName>John</fName>
+
+	<lName>Nelson</lName>
+
+	<plan>
+
+		<courses year="3">
+
+			<course>
+
+				<name> Extensible Markup Language</name>
+
+				<shortName>XML</shortName>
+
+				<record>
+
+					<grade>30</grade>
+
+					<date>12-Jan-2017</date>
+
+				</record>
+
+			</course>
+
+			<course>
+
+				<name>Object Oriented Concepts and Unified Modeling Language</name>
+
+				<shortName><![CDATA[OOP & UML]]></shortName>
+
+			</course>
+
+		</courses>
+
+	</plan>
+
+</student>

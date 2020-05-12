@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ATTLIST student id CDATA "12C042">
+<!ELEMENT student (fName,lName,plan)>
+<!ELEMENT fName (#PCDATA)>
+<!ELEMENT lName (#PCDATA)>
+<!ELEMENT plan (courses)>
+<!ATTLIST courses year CDATA "3">
+<!ELEMENT courses (course+)>
+<!ELEMENT course (name,shortName,record*)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT shortName (#PCDATA)>
+<!ELEMENT record (grade,date)>
+<!ELEMENT grade (#PCDATA)>
+<!ELEMENT date (#PCDATA)>
