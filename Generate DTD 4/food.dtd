@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT hotels (breakfast_menu)>
+<!ELEMENT breakfast_menu (food+)>
+<!ELEMENT food (name,price,description,calories)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+<!ELEMENT description (#PCDATA)>
+<!ELEMENT calories (#PCDATA)>
