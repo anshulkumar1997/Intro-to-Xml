@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<company>
+    <companyname>tesla</companyname>
+    <address>seattle</address>
+    <department>
+        <dname>Engi</dname>
+        <deptphoneno>911</deptphoneno>
+        <deptfaxno>07</deptfaxno>
+        <deptemail>Engi@tesla.com</deptemail>
+        <employee>
+            <empid>1</empid>
+            <ename>musk</ename>
+            <emailid>elon@tesla.com</emailid>
+            <phoneno>100</phoneno>
+        </employee>
+        <contractemployee>
+            <name>west</name>
+            <phoneno>3825</phoneno>
+        </contractemployee>
+    </department>
+    <department>
+        <dname>op</dname>
+        <deptphoneno>77</deptphoneno>
+        <deptfaxno>2256</deptfaxno>
+        <deptemail>musky@myus.com</deptemail>
+        <employee>
+            <empid>2</empid>
+            <ename>asdas</ename>
+            <emailid>maskman@tesla.com</emailid>
+            <phoneno>3354</phoneno>
+        </employee>
+    </department>
+</company>
